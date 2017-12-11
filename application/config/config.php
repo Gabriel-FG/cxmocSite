@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://tectotum15-pc/cxmoc/';
+$config['base_url'] = 'https://glacial-stream-87219.herokuapp.com/';
 
 /*
 |--------------------------------------------------------------------------
