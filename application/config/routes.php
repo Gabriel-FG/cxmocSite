@@ -49,6 +49,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | Examples:	my-controller/index	-> my_controller/index
 |		my-controller/my-method	-> my_controller/my_method
 */
+echo 'veio';
 $route['default_controller'] = 'Home';
 // $route['default_controller'] = 'Home/pagina_home';
 $route['404_override'] = '';
