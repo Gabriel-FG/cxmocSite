@@ -8,6 +8,12 @@ class Home extends MY_Controller{
 		$this->load->model('imagens_model');
 	}
 
+	public function index()
+	{
+		echo 'Aqui';
+		exit;
+	}
+
 	public function pagina_home(){
 		$dados['noticias'] = $this->noticias_model->buscar_noticias();
 		$dados['fotos'] = $this->imagens_model->buscar_imagens();
