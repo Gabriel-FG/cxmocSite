@@ -1,4 +1,6 @@
 <?php
+echo 'jldaf';
+exit;
 /**
  * CodeIgniter
  *
