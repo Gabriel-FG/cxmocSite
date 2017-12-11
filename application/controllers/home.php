@@ -17,7 +17,7 @@ class Home extends MY_Controller{
 	public function pagina_home(){
 		$dados['noticias'] = $this->noticias_model->buscar_noticias();
 		$dados['fotos'] = $this->imagens_model->buscar_imagens();
-		$this->montaTela('index', $dados);
+		$this->montaTela('Index', $dados);
 	}
 
 	public function enviar_mensagem(){
